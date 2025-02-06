@@ -1,33 +1,91 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <style>
+	<style>
         h1{
             color: navy;
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
         }
+        h2{
+        	color: purple;
+            text-align: center;
+        }
         body{
             text-align: left;
             font-family: Arial, Helvetica, sans-serif;
         }
+        p{
+        	font-family: Comic Sans;
+        }
+        img {
+        	width: auto;
+        }
+        .center{
+        	display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+        }
+        .wrapper{
+        	width: 100%;
+            max-width: 1000px;
+        }
+        .flex-container {
+        	display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .box {
+        	height: 100px;
+            min-width: 100px;
+            padding: 10px;
+            margin-top: 50px;
+        }
+        .red-box {
+        	background-color: red;
+        }
+        .green-box {
+        	background-color: green;
+        }
+        .blue-box {
+        	background-color: blue;
+        }
+        
     </style>
-    <h1>Your Name </h1>
-    <h2> Here is your description! You do cool things, go you! </h2>
+    
+    <head>
+    <h1> Jim Marigmen </h1>
+    <h2> I am a Junior Computer Science major. </h2>
     </head>
+    
     <body>
-    <img src="https://s24193.pcdn.co/wp-content/uploads/2016/07/entity-women-that-did-ada-lovelace-1320x720.jpg" width="400" height="400" alt="Computer Hope">
+    
+    <div class = "flex-container">
+        	<img src="https://i.ytimg.com/vi/EcMlX_36gjs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCeRm3Bj7_7wf4f1mItqzz8GS7NIQ" width="200" height="200" alt="Side Eye Dog">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1TpNa2GGqs3Hos_sGEfrZn_iMf2ZNhPbN-w&s" width="200" height="200" alt="Side Eye Cat">
+    </div>
+
+    
     <p>
-        Where did you go to schooL?
+        I attend Macalester College.
     </p>
     <p>
-        Where do you work?
+        I work for the MSCS Department and the Digital Resource Center.
     </p>
     <p>
-        What are your accomplishments?
+        My accomplishment is taking COMP446.
     </p>
-    <a href="url"> your favorite cat video </a>
-</body>
+    <a href="https://youtu.be/pr-f1MHqwBM"> your favorite cat video </a>
+    
+    <div class = "wrapper center">
+    	<div class = "flex-container">
+        	<div class = "box red-box center"></div>
+            <div class = "box green-box center"></div>
+            <div class = "box blue-box center"></div>
+        </div>
+    </div>
+	</body>
 </html>
 
 <!-- extra challenges 
@@ -38,7 +96,7 @@ Add another image
 Add more text-->
 
 <!-- QUIZ
-- what does the <p> tag do?
-- what does the alt property of the img tag mean?
-- what does html stand for?
+- what does the <p> tag do? The <p> tag is for adding paragraphs. After each <p>, it defines a new blank line.
+- what does the alt property of the img tag mean? The alt property is a text version of the image if the image is not rendered / available.
+- what does html stand for? Hyper Text Markup Language
 -->
